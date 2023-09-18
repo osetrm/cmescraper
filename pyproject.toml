@@ -1,13 +1,14 @@
 [tool.poetry]
 name = "cmescraper"
-version = "0.1.0"
-description = ""
+version = "0.0.1"
+description = "Scraper for ftp.cmegroup.com"
 authors = ["snimmo <stephennimmo@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.9"
 tentaclio = "^1.2.1"
+pytest = "^7.4.2"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.4.2"

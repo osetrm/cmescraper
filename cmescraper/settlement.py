@@ -1,6 +1,7 @@
-import tentaclio
-import pandas as pd
 from datetime import date
+
+import pandas as pd
+import tentaclio
 
 from cmescraper import cme
 
